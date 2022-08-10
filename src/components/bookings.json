@@ -1,0 +1,29 @@
+{
+    "bookings":
+    [
+        {"id":1,
+        "title":"Mini Project Discussion",
+        "meetingRoomName":"Alpha",
+        "startDate":"08-09-2022",
+        "startTime":"10:00AM",
+        "endDate":"08-09-2022",
+        "endTime":"11:00AM",
+        "createdBy":"Sai Charan"},
+        {"id":2,
+        "title":"Meeting with Nitesh",
+        "meetingRoomName":"Gamma",
+        "startDate":"09-09-2022",
+        "startTime":"10:00AM",
+        "endDate":"09-09-2022",
+        "endTime":"11:00AM",
+        "createdBy":"Samson"},
+        {"id":3,
+        "title":"Mini Project",
+        "meetingRoomName":"Alpha",
+        "startDate":"08-09-2022",
+        "startTime":"03:00AM",
+        "endDate":"08-09-2022",
+        "endTime":"04:00AM",
+        "createdBy":"Syed Ayaz"}
+    ]
+}
