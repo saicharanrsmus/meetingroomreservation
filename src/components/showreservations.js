@@ -7,6 +7,7 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import data from './bookings.json';
+import edit_button from "../images/edit-button.svg";
 
 export default function ShowBookings() {
     const rows = data["bookings"];
@@ -41,6 +42,7 @@ export default function ShowBookings() {
               <TableCell align="right">{row.endDate}</TableCell>
               <TableCell align="right">{row.endTime}</TableCell>
               <TableCell align="right">{row.createdBy}</TableCell>
+              <TableCell align="right"><img src={edit_button} alt="SVG as an image" /></TableCell>
             </TableRow>
           ))}
         </TableBody>
